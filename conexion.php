@@ -2,10 +2,10 @@
 
 	class basedatos{
 		private $con;
-		private $dbequipo='localhost';
-		private $dbusuario='root';
-		private $dbclave='';
-		private $dbnombre='crud';
+		private $dbequipo='bqrdko7ot8za3uc8u3l6-mysql.services.clever-cloud.com';
+		private $dbusuario='uxqaja5cxlfg4xdk';
+		private $dbclave='oBf0d9IvYLgVCOV4YL2h';
+		private $dbnombre='bqrdko7ot8za3uc8u3l6';
 		function __construct(){
 			$this->conectar();
 		}

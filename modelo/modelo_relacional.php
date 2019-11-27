@@ -28,6 +28,7 @@
                 <div class="row">
                     <div class="col-sm-12"><h2>Listado de  <b>Consulta con JOIN</b></h2>
                         <h4>Se ha seleccionado el pedido con su descripción y los productos con sus precios y descripción del cliente llamada "Martha".</h4>
+                        <h6>SELECT ped_nombre, ped_descripcion, prod_nombre, prod_precio, prod_descripcion FROM es_clientes JOIN es_pedidos ON cli_id = ped_cli_id JOIN es_productos ON prod_ped_id = ped_id WHERE cli_nombre='Martha'</h6>
                     </div>
 
                 </div>
@@ -76,6 +77,7 @@
                 <div class="row">
                     <div class="col-sm-12"><h2>Listado de  <b>SubConsultas</b></h2>
                         <h4>Se ha seleccionado todos los pedidos que no tengan la palabra "Productos" con el usuario de contacto con su descripcion del cliente llamado "Alex".</h4>
+                        <h6>SELECT con_nombre, con_descripcion FROM es_contacto WHERE con_ped_id IN (SELECT ped_id FROM es_pedidos WHERE  ped_nombre NOT LIKE '%Productos%') and con_cli_id IN (SELECT cli_id FROM es_clientes WHERE cli_nombre='Alex')</h6>
                     </div>
                 </div>
             </div>
@@ -114,6 +116,7 @@
                 <div class="row">
                     <div class="col-sm-12"><h2>Listado de  <b>Consultas de Agrupación</b></h2>
                         <h4>Consulta del producto con el mayor precio de toda la tienda.</h4>
+                        <h6>SELECT prod_nombre, prod_existencias, MAX(prod_precio) AS prod_precio, prod_descripcion FROM es_productos</h6>
                     </div>
                 </div>
             </div>

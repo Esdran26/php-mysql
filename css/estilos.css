@@ -1,0 +1,86 @@
+body {
+    background-image: url('../img/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ejercicio{
+    width:  400px;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-success {
+    border-radius: .5rem;
+    border: 1px solid #00b894;
+    background-color: white;
+    transition: all .3s ease-in-out;
+    color: #00b894;
+    font-weight: bold;
+    padding: 1rem;
+    margin-right: 1.5rem;
+}
+
+.btn-info {
+    border-radius: .5rem;
+    border: 1px solid #0984e3;
+    background-color: white;
+    transition: all .3s ease-in-out;
+    color: #0984e3;
+    font-weight: bold;
+    padding: 1rem;
+    margin-right: 1.5rem;
+}
+
+.btn-warning {
+    border-radius: .5rem;
+    border: 1px solid #f39c12;
+    background-color: white;
+    transition: all .3s ease-in-out;
+    color: #f39c12;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.btn-default {
+    border-radius: .5rem;
+    border: 1px solid #2d3436;
+    background-color: white;
+    transition: all .3s ease-in-out;
+    color: #2d3436;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.btn-default:hover {
+    border: 1px solid white;
+    background-color: #2d3436;
+    color: white;
+}
+
+.btn-success:hover {
+    border: 1px solid white;
+    background-color: #00b894;
+    color: white;
+}
+
+.btn-info:hover {
+    border: 1px solid white;
+    background-color: #0984e3;
+    color: white;
+}
+
+.btn-warning:hover {
+    border: 1px solid white;
+    background-color: #f39c12;
+    color: white;
+}
+
+.alerta {
+   width:330px;    
+}
+

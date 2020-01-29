@@ -26,9 +26,9 @@ Se hace la misma funcionalidad del CRUD de clientes pero con más campos para mo
 # Tree Tables Query
 Se hace una demostración de las consultas SQL en la base de datos, la primera es de JOIN, luego de SubConsulta y la última es una consulta de agrupación.
 
-![consulta](https://user-images.githubusercontent.com/55358669/73222166-960ea800-4130-11ea-874d-015b09219512.png)
+![screencapture-crud-number-2-herokuapp-consultas-reportes-php-2020-01-29-10_38_18](https://user-images.githubusercontent.com/55358669/73371358-94092e00-4283-11ea-8d4e-a4afb82523f6.png)
 
 # Relational Model
 Se muestra una imagen del modelo relacional de la base de datos, los nombres de los campos sus tipos y la longitud de cada uno de ellos.
 
-![modelo](https://user-images.githubusercontent.com/55358669/73222256-cd7d5480-4130-11ea-8450-6f19af2caf0e.png)
+![screencapture-crud-number-2-herokuapp-modelo-modelo-relacional-php-2020-01-29-10_38_37](https://user-images.githubusercontent.com/55358669/73371365-95d2f180-4283-11ea-9dfd-fe00c2cc3ea8.png)
